@@ -1,0 +1,103 @@
+body,ul,p,h1,h2,dl,dd,form,input{padding:0;margin:0;font-family:arial;}
+li{list-style:none;}
+img{border:none;}
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+body{width: 100%; height:100%; background: url(../images/body_bg.png) repeat;}
+/* 头部导航的样式 */
+#top {width: 100%;height: 31px;background: url(../images/top_bg.png) repeat-x;}
+#top ul {width: 990px;height: 22px;text-align: center;top: 8px;padding-top: 8px;margin: 0 auto;}
+#top li {float: left;width: 42px; border-right: 2px solid #cdcdcd;margin-left: 5px;line-height: 12px;}
+#top p {font-size: 12px;color: #cdcdcd;font-weight: bold;float: left;}
+#top .lastLi {border: none;}
+#top a {font-size: 12px;color: #cdcdcd;font-weight: bold;}
+/* logo图标的样式 */
+#logo {width: 858px; height: 96px;margin: 0 auto;position: relative;}
+#logo img {width: 276px;height: 86px; position: absolute;left: 290px;}
+#logo p {font-size: 16px;font-family: '微软雅黑';font-style: italic; color: #fefefe;position: absolute;top: 70px;right: 10px;}
+/* 整个内容区域 */
+#content {width:861px; margin: 0 auto;background:url(../images/content_cen.png) repeat-y;}
+#content_top {width: 861px;background: url(../images/content_top.png) no-repeat 0 top;}
+#centent_bottom {width: 861px;height: 850px; background: url(../images/content_bot.png) no-repeat 0 bottom;}
+/* 内容区导航的样式 */
+#nav {width: 850px;height: 55px;padding-top: 9px;margin: 0 auto; border-bottom: 2px solid blue;}
+#nav li {float: left;height: 46px;margin-left: 13px;}
+#nav a {float:left;height:46px;line-height:46px;font-size: 16px;color: #da251d;font-style: italic; }
+#nav strong {float: left;height: 46px;}
+#nav span {float: left;height: 46px; padding: 0 14px;}
+#nav .active a,#nav a:hover {font-size: 16px;color: #ffffff;background: url(../images/nav_bg.jpg) repeat-x 0 -92px;}
+#nav .active strong,#nav a:hover strong {background: url(../images/nav_bg.jpg) no-repeat;}
+#nav .active span,#nav a:hover span {background: url(../images/nav_bg.jpg) no-repeat right -46px;}
+/* 轮播显示电影区域 */
+#ad {width: 610px;height:360px;margin-top:6px;margin-left: 6px;border:3px solid #ededed;position: relative;}
+#adleft {width: 134px;height: 358px;margin-left: 4px;margin-top: 4px;}
+#adleft ul {width: 134px;height: 354px;}
+#adleft li {float: left; width: 132px;height: 87px;padding-bottom:1px; }
+#adleft img {width: 132px;height: 87px;border: 1px solid #00458e;}
+#adleft .active2 img {width:126px;height: 81px; border: 4px solid #00458e;}
+
+#adright {width: 468px;height: 358px;position: absolute;left: 140px;top:4px;}
+.introduction {width: 468px; height: 81px;background-color: #d5221a;position: relative;top: -5px;}
+.introduction h2{font-size: 20px;color: #ffffff;font-style: italic;font-weight: bold;position: absolute;top: 8px;}
+.introduction span {font-size: 14px;}
+.introduction p {width: 330px;height: 30px;line-height: 15px; font-size: 12px;color: #fff8f8;text-indent: 14px; position: absolute;left: 14px;top:38px;}
+.introduction a {}
+.introduction a img {width: 74px;height: 39px;position: absolute;right: 30px;top:20px;}
+/* 登录区域的样式 */
+#login {width: 236px;height: 160px;background: url(../images/module_bg.png) no-repeat 0 top; float: right;position: relative;top: -365px;}
+#login img, #notice img {position: absolute;top: 10px;left: 10px;}
+.tbl {width: 220px;height: 46px;position: absolute;top: 34px;left: 8px;}
+.tbl p {font-size:11px;font-family: '微软雅黑'; font-weight: bold;font-style: italic; color: #00458e;}
+#user_txt {width: 90px;height: 16px;}
+#pwd_txt {width: 90px;height: 16px;}
+#login_btn {display: block; width: 123px;height: 53px;background: url(../images/login.png) no-repeat;position: absolute;left: 12px;top: 96px;}
+#enroll_btn {display: block; width: 86px;height: 53px;background: url(../images/enroll.png) no-repeat;position: absolute;right: 10px;top: 96px;}
+/* 活动通知区域的样式 */
+#notice {width: 238px;height: 198px;background: url(../images/module_bg.png) no-repeat 0 top;float: right; position: relative;right: -236px;top:-203px;}
+.inform {width: 230px;height: 120px;position:absolute;top: 38px;left: 8px;}
+.inform li {width: 230px;height: 12px;line-height: 12px;margin-bottom: 8px;text-indent: 8px; background: url(../images/li_bg.png) no-repeat;}
+.inform a {width: 230px;height: 12px; font-size: 12px;color: #959595;font-weight: bold;text-decoration: none;}
+.inform a:hover {color: #6d6969;text-decoration: underline;}
+.search {width: 236px;height: 55px;position: absolute;left
+	: 0px;bottom: 0px;background: url(../images/search_bg.jpg) no-repeat;}
+.search input {width: 116px;height: 16px;line-height: 16px; font-size: 12px;font-family: '宋体'; color: #cdcdcd; position: absolute;bottom: 19px;right: 32px;}
+.search a {display: block;width: 20px;height: 20px;background: url(../images/search_btn.png) no-repeat; position: absolute;bottom:18px;right: 8px;}
+/* 影讯预告区域的样式 */
+#previous {width: 350px;height: 396px;margin-top: 12px;margin-left: 2px;background: url(../images/module_bg.png) no-repeat;padding-top: 8px;padding-left: 14px;}
+#previous h2 {width: 344px;height: 24px; position: relative;}
+#previous h2 img {width: 92px;height: 18px;}
+#previous h2 a {display: block;width: 45px;height: 24px;background: url(../images/movies/more.png) no-repeat; position: absolute;right: 0px;top: 0px;}
+#previous ul {width: 344px;height: 350px;}
+#previous li {width: 338px;height: 150px;margin-top: 18px;position: relative;}
+#previous li a {}
+#previous li img {border: 1px solid #da251d;}
+#previous li span {font-size: 12px;color: #da251d;font-weight: bold;position: absolute;top: 10px;left: 134px;}
+#previous li p {display: block; width: 200px;height:110px;font-family: '宋体';font-size: 12px;line-height: 16px; color: #959595;position: absolute;top: 34px;left:138px;}
+/* 影讯区域的样式 */
+#introduction {width: 242px;height: 396px;background: url(../images/module_bg.png) no-repeat; position: relative;left: 366px;top:-404px;padding-top: 8px;padding-left: 14px;}
+#introduction h2 img {width: 92px;height: 18px;}
+#introduction h2 a {display: block;width: 45px;height: 24px;background: url(../images/movies/more.png) no-repeat; position: absolute;top: 6px;right: 6px;}
+#introduction ul {width: 230px;height: 350px;}
+#introduction li {width: 230px;height: 150px;margin-top: 16px;position: relative;}
+#introduction li a {}
+#introduction li img {border: 1px solid #0066d2;}
+#introduction li span {font-size: 12px;color: #0066d2;font-weight: bold;position: absolute;top: 10px;left: 134px;}
+#introduction li p {display: block;width: 94px;height: 108px;font-size: 12px;line-height: 16px;color: #959595;position: absolute;top: 34px;left: 134px;}
+/* 精彩活动样式 */
+#activity {width: 224px;height: 64px;border: 4px solid #e5e5e5;float: right;position: relative;top: -808px;right: 4px;}
+/* 商品专卖样式 */
+#sale {width: 234px;height: 178px;float: right;position: relative;right: -230px;top:-730px;background: url(../images/module_bg.png) no-repeat;}
+#sale h2 {width: 234px;height: 24px;}
+#sale h2 img {width: 92px;height: 18px;position: absolute;top: 12px;left: 6px;}
+#sale h2 a {display: block;width: 45px;height: 24px;background: url(../images/movies/more.png) no-repeat; position: absolute;top: 6px;right: 6px;}
+#sale ul {width: 222px;height: 134px;position: absolute;top:42px; left: 4px;}
+#sale li {width: 222px;height: 12px;line-height: 12px;margin-top: 8px;text-indent: 10px; background: url(../images/li1_bg.png) no-repeat left 0;}
+#sale li a {font-size: 12px;font-family: '宋体';color: #959595;}
+#sale li a:hover {color: #7a7878;}
+/* “联系我们”样式 */
+#contact {width: 224px;height: 95px;border: 4px solid #e5e5e5;position: relative;right: -622px;top: -530px;}
+/* 底部区域的样式 */
+#footer {width: 861px;height: 52px;margin: 0 auto;position: relative;}
+#footer img {width: 114px;height: 36px;position: absolute;top: 12px;left: 6px;}
+#footer p {display: block;width: 314px;height: 12px; font-size: 10px;font-weight: bold;font-style: italic;color: #ffffff;position: absolute;top: 18px;right:4px;}
